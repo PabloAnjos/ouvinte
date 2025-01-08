@@ -1,3 +1,4 @@
+import { AvaliacaoProduto } from "./components/AvaliacaoProduto"
 import { Header } from "./components/Header"
 import { Produto } from "./components/Produto"
 
@@ -9,8 +10,9 @@ function App() {
 
         {/*SECTION PRODUTO*/}
         <section className="w-screen h-screen flex justify-center mt-10">
-                  <div className="w-[1252px] h-[1126px]">
+                  <div className="w-[1252px] h-[1126px] flex">
                         <Produto />
+                        <AvaliacaoProduto />
                   </div>
         </section>
     </>
